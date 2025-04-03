@@ -145,11 +145,11 @@ const Main = () => {
     { img: "E1.jpg", text: "김연우! <br/> 나애 개발 실력 얻때?" },
     {
       img: "E2.jpg",
-      text: "ㅎㅎ 히히 감동했나, <br/> 빨리 울어!!",
+      text: "ㅎㅎ 히히 감동했나, <br/> 우리 애기 놀래찌!!",
     },
     {
       img: "E3.jpg",
-      text: "나는 여누를 위해서라면 뭐든지 할수이써! <br/> 그것이 코딩이라고 해도...",
+      text: "나는 여누를 위해서라면 <br/>뭐든지 할수이써! <br/> 그것이 코딩이라고 해도...",
     },
     {
       img: "E4.jpg",
@@ -191,7 +191,8 @@ const Main = () => {
           </ReasonItem>
         ))}
       </ReasonContainer>
-      <Title>🎉여누의 생일을 진심으로 축하해! 🎉</Title>
+      <Title>🎉여누의 생일을 진심으로 축하해! 🎉</Title></br>
+    
       <Developer> 여누의 기염둥이 소영이가 </Developer>
       <DevelopText>사랑해❤️ </DevelopText>
     </BannerContainer>
