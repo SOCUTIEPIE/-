@@ -142,28 +142,28 @@ const Main = () => {
   };
 
   const reasons = [
-    { img: "E1.png", text: "너가 좋은 첫 번째 이유, <br/> 잘 생겨서," },
+    { img: "E1.jpg", text: "김연우! <br/> 나애 개발 실력 얻때?" },
     {
-      img: "E2.png",
-      text: "너가 좋은 두 번째 이유, <br/> 너의 모든 행동이 너무 예뻐서,",
+      img: "E2.jpg",
+      text: "ㅎㅎ 히히 감동했나, <br/> 빨리 울어!!",
     },
     {
-      img: "E3.png",
-      text: "너가 좋은 세 번째 이유, <br/> 언제나 주어진 일에 최선을 다해서,",
+      img: "E3.jpg",
+      text: "나는 여누를 위해서라면 뭐든지 할수이써! <br/> 그것이 코딩이라고 해도...",
     },
     {
-      img: "E4.png",
-      text: "너가 좋은 네 번째 이유, <br/> 너의 웃는 얼굴이 항상 설레서,",
+      img: "E4.jpg",
+      text: "이뿌니 여누야, <br/> 우리 앞으로도 친하게 지내자!!",
     },
     {
-      img: "E5.png",
-      text: "너가 좋은 다섯 번째 이유, <br/> 나에겐 표현이 항상 솔직해서",
+      img: "E5.jpg",
+      text: "내가 많이 사랑해 <br/> 생일 너무너무 축하해!!",
     },
   ];
 
   return (
     <BannerContainer>
-      <Title>😼 All About Deuni 😼</Title>
+      <Title>😼 All About 연우 😼</Title>
       <ImageContainer>
         <SlideButton onClick={prevSlide} style={{ left: "10px" }}>
           &#10094;
@@ -191,9 +191,9 @@ const Main = () => {
           </ReasonItem>
         ))}
       </ReasonContainer>
-      <Title>🎉오빠의 24번째 생일을 진심으로 축하해 🎉</Title>
-      <Developer>Developed by. 오빠 옆에서 든든히 지키는 댕댕이 여자친구가 🐶 </Developer>
-      <DevelopText>github: @osohyun0224</DevelopText>
+      <Title>🎉여누의 생일을 진심으로 축하해! 🎉</Title>
+      <Developer> 여누의 기염둥이 소영이가 </Developer>
+      <DevelopText>사랑해❤️ </DevelopText>
     </BannerContainer>
   );
 };
