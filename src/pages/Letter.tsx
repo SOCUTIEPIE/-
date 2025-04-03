@@ -67,7 +67,8 @@ const LetterPage: React.FC = () => {
 
   return (
     <LetterContainer>
-      <TitleText>사랑하는 여누에게</TitleText>
+      <TitleText>사랑하는 여누에게 </br>
+      🩷비밀편지🩷</TitleText>
       <LetterPaper>
         <WaveLines />
         <LetterText>

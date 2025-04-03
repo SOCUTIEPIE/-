@@ -163,7 +163,7 @@ const Main = () => {
 
   return (
     <BannerContainer>
-      <Title>😼 All About 연우 😼</Title>
+      <Title> 🩷🩷🩷 happy birthday to 연우 🩷🩷🩷</Title>
       <ImageContainer>
         <SlideButton onClick={prevSlide} style={{ left: "10px" }}>
           &#10094;

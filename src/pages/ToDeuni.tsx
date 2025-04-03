@@ -97,7 +97,7 @@ const ToYeonWooPage = () => {
   return (
     <ToYeonWooContainer>
       <ImageWrapper>
-        <StyledImage src="/images/E0-.png" alt="설명" />
+        <StyledImage src="/images/E0.png" alt="설명" />
       </ImageWrapper>
       <Title>여누에게 생일 축하 인사를 남겨보세요!</Title>
       {showInput ? (
