@@ -48,7 +48,7 @@ const Button = styled.button`
     outline: none;
   }
   &.active {
-    background-color: #6ea048;
+    background-color:rgb(135, 206, 250);
   }
 `;
 
