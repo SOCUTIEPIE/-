@@ -67,18 +67,18 @@ const LetterPage: React.FC = () => {
 
   return (
     <LetterContainer>
-      <TitleText>사랑하는 오빠에게</TitleText>
+      <TitleText>사랑하는 여누에게</TitleText>
       <LetterPaper>
         <WaveLines />
         <LetterText>
-          블라블라...
-          <br />
+        여누야 생일 추카해 🥳
+          <br /> <br />
           사랑해!
         </LetterText>
       </LetterPaper>
       <VideoWrapper>
         <TitleText>Listen to the Song 🎤</TitleText>
-        <YouTube videoId="Mcp1UhXsyU4" opts={videoOptions} />
+        <YouTube videoId="gcxR9ejZpUI" opts={videoOptions} />
       </VideoWrapper>
     </LetterContainer>
   );
