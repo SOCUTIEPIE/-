@@ -69,8 +69,8 @@ const IndexPage = () => {
 
   return (
     <MainContainer> 
-      <Title>❤️드니 생일 축하해❤️</Title>
-      <ButtonsContainer>
+      <Title>❤️여누 생일 축하해❤️</Title>
+          <ButtonsContainer>
         {buttons.map((button, index) => (
           <Button
             key={index}
