@@ -7,7 +7,7 @@ import PresentPage from './Present';
 import LetterPage from "./Letter";
 
 const MainContainer = styled.main` 
-  background-color: #DBF1C9;
+  background-color: #CAEEFC;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ const ButtonsContainer = styled.div`
 
 const IndexPage = () => {
   const [activeButton, setActiveButton] = useState("Main");
-  const buttons = ["Main", "To 연우", "Photo", "Present", "Letter for YeonWoo"];
+  const buttons = ["Main", "To YeonWoo", "Photo", "Present", "Letter for YeonWoo"];
 
   const handleClick = (buttonName: string) => {
     setActiveButton(buttonName);
