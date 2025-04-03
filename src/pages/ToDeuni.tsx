@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const ToYeonWooContainer = styled.div`
-  background-color: #dbf1c9;
+  background-color: #CAEEFC;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,21 +44,21 @@ const AddButton = styled.button`
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  border: 1px solid #3d631f;
+  border: 1px solidrgb(23, 21, 88);
   background: #ffffff;
   cursor: pointer;
 
   font-family: "Nanum Pen Script", cursive;
   font-weight: 600;
   font-size: 16px;
-  color: #3d631f;
+  color:rgb(27, 34, 66);
 `;
 
 const MessageInput = styled.textarea`
   width: 500px;
   height: 165px;
   border-radius: 0px;
-  background-color: #b4dd94;
+  background-color:rgb(127, 178, 199);
   font-family: "Nanum Pen Script", cursive;
   font-size: 30px;
   color: black;
@@ -69,7 +69,7 @@ const MessageContainer = styled.div`
   font-family: "Nanum Pen Script", cursive;
   padding: 13px 24px 13px 24px;
   border-radius: 6px;
-  background: #a0c583;
+  background: #CAEEFC;
   margin-top: 20px;
   word-wrap: break-word;
   color: black;
@@ -97,7 +97,7 @@ const ToYeonWooPage = () => {
   return (
     <ToYeonWooContainer>
       <ImageWrapper>
-        <StyledImage src="/images/E0.png" alt="설명" />
+        <StyledImage src="/images/E0.jpg" alt="설명" />
       </ImageWrapper>
       <Title>여누에게 생일 축하 인사를 남겨보세요!</Title>
       {showInput ? (
