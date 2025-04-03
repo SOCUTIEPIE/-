@@ -191,8 +191,8 @@ const Main = () => {
           </ReasonItem>
         ))}
       </ReasonContainer>
-      <Title>🎉여누의 생일을 진심으로 축하해! 🎉</Title></br>
-    
+      <Title>🎉여누의 생일을 진심으로 축하해! 🎉</Title>
+<br />
       <Developer> 여누의 기염둥이 소영이가 </Developer>
       <DevelopText>사랑해❤️ </DevelopText>
     </BannerContainer>
