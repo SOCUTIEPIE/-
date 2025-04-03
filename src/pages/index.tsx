@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import MainComponent from "./Main";
-import ToYeonWooPage from "./ToYeonWoo";
+import ToYeonWooPage from "./ToDeuni";
 import PhotoPage from './Photo';
 import PresentPage from './Present';
 import LetterPage from "./Letter";
