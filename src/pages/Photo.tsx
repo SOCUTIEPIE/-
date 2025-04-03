@@ -59,7 +59,7 @@ const PhotoPage: React.FC = () => {
 
   return (
     <PhotoContainer>
-      <CelebrationText>드니 생일 기념 사진을 찍어보세요!</CelebrationText> {/* 추가된 텍스트 */}
+      <CelebrationText>여누 생일 기념 사진을 찍어보세요!</CelebrationText> {/* 추가된 텍스트 */}
       <Webcam ref={webcamRef} screenshotFormat="image/jpeg" />
       <CaptureButton onClick={handleCapture}>사진 찍기</CaptureButton>
       <CapturedImages>
