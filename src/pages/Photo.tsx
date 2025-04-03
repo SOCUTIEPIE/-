@@ -12,7 +12,7 @@ const PhotoContainer = styled.div`
 `;
 
 const CaptureButton = styled.button`
-  background-color: #6ea048;
+  background-color: rgb(135, 206, 250)
   color: white;
   border: none;
   border-radius: 6px;
