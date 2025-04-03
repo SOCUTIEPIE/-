@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import MainComponent from "./Main";
-import ToDeuniPage from "./ToDeuni";
+import ToYeonWooPage from "./ToYeonWoo";
 import PhotoPage from './Photo';
 import PresentPage from './Present';
 import LetterPage from "./Letter";
@@ -82,10 +82,10 @@ const IndexPage = () => {
         ))}
       </ButtonsContainer>
       {activeButton === "Main" && <MainComponent />} 
-      {activeButton === "To Deuni" && <ToDeuniPage />}
+      {activeButton === "To YeonWoo" && <ToYeonWooPage />}
       {activeButton === 'Photo' && <PhotoPage />} 
       {activeButton === 'Present' && <PresentPage />} 
-      {activeButton === 'Letter for Deuni' && <LetterPage />} 
+      {activeButton === 'Letter for YeonWoo' && <LetterPage />} 
     </MainContainer>
   );
 };
