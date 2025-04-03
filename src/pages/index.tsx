@@ -61,7 +61,7 @@ const ButtonsContainer = styled.div`
 
 const IndexPage = () => {
   const [activeButton, setActiveButton] = useState("Main");
-  const buttons = ["Main", "To Deuni", "Photo", "Present", "Letter for Deuni"];
+  const buttons = ["Main", "To 연우", "Photo", "Present", "Letter for YeonWoo"];
 
   const handleClick = (buttonName: string) => {
     setActiveButton(buttonName);
