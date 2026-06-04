@@ -19,7 +19,7 @@ const MainContainer = styled.main`
 `;
 
 const Title = styled.h1`
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Sunflower", cursive;
   font-size: 40px;
   font-weight: 700;
   line-height: 22px;
@@ -30,7 +30,7 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-  font-family: "Nanum Pen Script", sans-serif;
+  font-family: "Sunflower", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 22px;
