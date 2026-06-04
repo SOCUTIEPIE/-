@@ -56,8 +56,10 @@ const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px; 
-`;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+`;flex-wrap: wrap;
 
 const IndexPage = () => {
   const [activeButton, setActiveButton] = useState("Main");
