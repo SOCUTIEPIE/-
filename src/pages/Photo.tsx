@@ -12,14 +12,28 @@ const PhotoContainer = styled.div`
 `;
 
 const CaptureButton = styled.button`
-  background-color: rgb(135, 206, 250)
+  background-color: rgb(135, 206, 250);
   color: white;
   border: none;
   border-radius: 6px;
   padding: 10px 20px;
   cursor: pointer;
-  font-family: "Nanum Pen Script", sans-serif;
+  font-family: 'Sunflower', sans-serif;
   font-size: 20px;
+`;
+
+const SaveButton = styled.a`
+  background-color: rgb(100, 180, 250);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 `;
 
 const CapturedImages = styled.div`
@@ -27,6 +41,14 @@ const CapturedImages = styled.div`
   flex-direction: row;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+`;
+
+const ImageWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 `;
 
 const CapturedImage = styled.img`
@@ -37,7 +59,7 @@ const CapturedImage = styled.img`
 `;
 
 const CelebrationText = styled.h1`
-  font-family: "Gaegu", cursive;
+  font-family: 'Sunflower', sans-serif;
   font-size: 30px;
   color: black;
   text-align: center;
@@ -59,12 +81,17 @@ const PhotoPage: React.FC = () => {
 
   return (
     <PhotoContainer>
-      <CelebrationText>밥반찬씨 생일 기념 사진을 찍어보세요!</CelebrationText> {/* 추가된 텍스트 */}
+      <CelebrationText>박뺑찬 생일 기념 사진을 찍어보세요!</CelebrationText>
       <Webcam ref={webcamRef} screenshotFormat="image/jpeg" />
       <CaptureButton onClick={handleCapture}>사진 찍기</CaptureButton>
       <CapturedImages>
         {capturedImages.map((imageSrc, index) => (
-          <CapturedImage key={index} src={imageSrc} />
+          <ImageWrapper key={index}>
+            <CapturedImage src={imageSrc} />
+            <SaveButton href={imageSrc} download={`photo_${index + 1}.jpg`}>
+              💾 저장하기
+            </SaveButton>
+          </ImageWrapper>
         ))}
       </CapturedImages>
     </PhotoContainer>
