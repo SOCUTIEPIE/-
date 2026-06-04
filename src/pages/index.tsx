@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import MainComponent from "./Main";
-import ToYeonWooPage from "./ToDeuni";
+import ToByeongChanPage from "./ToDeuni";
 import PhotoPage from './Photo';
 import PresentPage from './Present';
 import LetterPage from "./Letter";
@@ -61,7 +61,7 @@ const ButtonsContainer = styled.div`
 
 const IndexPage = () => {
   const [activeButton, setActiveButton] = useState("Main");
-  const buttons = ["Main", "To YeonWoo", "Photo", "Present", "Letter for YeonWoo"];
+  const buttons = ["Main", "To ByeongChan", "Photo", "Present", "Letter for ByeongChan"];
 
   const handleClick = (buttonName: string) => {
     setActiveButton(buttonName);
@@ -69,7 +69,7 @@ const IndexPage = () => {
 
   return (
     <MainContainer> 
-      <Title>❤️여누 생일 축하해❤️</Title>
+      <Title>❤️박뺑찬 생일 축하해❤️</Title>
           <ButtonsContainer>
         {buttons.map((button, index) => (
           <Button
@@ -82,10 +82,10 @@ const IndexPage = () => {
         ))}
       </ButtonsContainer>
       {activeButton === "Main" && <MainComponent />} 
-      {activeButton === "To YeonWoo" && <ToYeonWooPage />}
+      {activeButton === "To ByeongChan" && <ToByeongChanPage />}
       {activeButton === 'Photo' && <PhotoPage />} 
       {activeButton === 'Present' && <PresentPage />} 
-      {activeButton === 'Letter for YeonWoo' && <LetterPage />} 
+      {activeButton === 'Letter for ByeongChan' && <LetterPage />} 
     </MainContainer>
   );
 };

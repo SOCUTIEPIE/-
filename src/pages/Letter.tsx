@@ -67,13 +67,17 @@ const LetterPage: React.FC = () => {
 
   return (
     <LetterContainer>
-    <TitleText>사랑하는 여누에게 <br/> 🩷비밀편지🩷</TitleText>
+    <TitleText>사랑하는 뿅찬에게 <br/> 🩷비밀편지🩷</TitleText>
       <LetterPaper>
         <WaveLines />
         <LetterText>
-        여누야 생일 추카해 🥳
+        병찬아 생일 추카해 🥳
           <br /> <br />
           사랑해! 알라뷰 ㅎㅎ
+          <br /> <br />
+          앞으로 남은 생일도 우리 같이 재밌게 보내자 
+          <br /> <br />
+          짱 사랑해!!!!!!!!!!!🩷🩷
         </LetterText>
       </LetterPaper>
       <VideoWrapper>

@@ -142,18 +142,18 @@ const Main = () => {
   };
 
   const reasons = [
-    { img: "E1.jpg", text: "김연우! <br/> 나애 개발 실력 얻때?" },
+    { img: "E1.jpg", text: "박뺑찬! <br/> 어때 박대리 나 박주임으로 들어가도 되겟나 후후" },
     {
       img: "E2.jpg",
-      text: "ㅎㅎ 히히 감동했나, <br/> 우리 애기 놀래찌!!",
+      text: "나 진짜로 코딩하고 있다고 했찌~~~~, <br/> ㅋㅋㅋㅋ엄청 잘하지 !?!?!!",
     },
     {
       img: "E3.jpg",
-      text: "나는 여누를 위해서라면 <br/>뭐든지 할수이써! <br/> 그것이 코딩이라고 해도...",
+      text: "나는 병찬이를 위해서라면 <br/>뭐든지 할수이써! <br/> 그것이 코딩이라고 해도...",
     },
     {
       img: "E4.jpg",
-      text: "이뿌니 여누야, <br/> 우리 앞으로도 친하게 지내자!!",
+      text: "이뿌나, <br/> 우리 앞으로도 친하게 지내자!!",
     },
     {
       img: "E5.jpg",
@@ -163,7 +163,7 @@ const Main = () => {
 
   return (
     <BannerContainer>
-      <Title> 🩷🩷🩷 happy birthday to 연우 🩷🩷🩷</Title>
+      <Title> 🩷🩷🩷 happy birthday to 뿅찬 🩷🩷🩷</Title>
       <ImageContainer>
         <SlideButton onClick={prevSlide} style={{ left: "10px" }}>
           &#10094;
@@ -191,10 +191,10 @@ const Main = () => {
           </ReasonItem>
         ))}
       </ReasonContainer>
-      <Title>🎉여누의 생일을 진심으로 축하해! 🎉</Title>
-<br />
-      <Developer> 여누의 기염둥이 소영이가 </Developer>
-      <DevelopText>사랑해❤️ </DevelopText>
+      <Title>🎉병찬이 생일을 진심으로 축하해! 🎉</Title>
+<br /><br/>
+      <Developer> 병찬의 기염둥이 소영이가<br/><br/> </Developer>
+      <DevelopText>사랑해❤️ <br/><br/></DevelopText>
     </BannerContainer>
   );
 };
